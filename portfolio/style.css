@@ -6,18 +6,18 @@ body {
     position: fixed;
     top: 0;
     width: 100% ;
-    height: 15%;
+    overflow: hidden;
+    height: 10%;
     float: center;
     align-content: center;
     justify-content: center;
-    background-color:#181818;
+    background-color:#141414;
 }
 
 .topnav li {
-    float: center;
     align-content: center;
     justify-content: center;
-    background-color: #181818;
+    background-color: #141414;
     list-style-type: none;
     font-family: 'Lucida Sans';
     color:white;
@@ -27,6 +27,7 @@ body {
     margin-right: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
+    position: relative;
 }
 
 a:link {
@@ -48,7 +49,10 @@ a:hover {
     color: #181818;
     background-color: white;
     text-decoration: none;
-    padding: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 h2 {
@@ -95,7 +99,7 @@ section{
 }
 
 h3{
-    background-color: rgb(69, 69, 69);
+    background-color: #141414;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -112,6 +116,6 @@ h3{
 }
 
 h3:hover{
-    color:#181818;
+    color:#141414;
     background-color: white;
 }
